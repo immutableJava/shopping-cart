@@ -25,5 +25,6 @@ public class ShoppingCartController {
     @GetMapping("/get")
     public List<Integer> getGoods() {
         return shoppingCartService.getGoods();
+
     }
 }
