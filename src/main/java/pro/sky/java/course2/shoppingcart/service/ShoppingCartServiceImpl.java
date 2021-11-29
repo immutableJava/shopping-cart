@@ -20,5 +20,6 @@ public class ShoppingCartServiceImpl implements ShoppingCartService {
     @Override
     public List<Integer> getGoods() {
         return Collections.unmodifiableList(idList);
+
     }
 }
